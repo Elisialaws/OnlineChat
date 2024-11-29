@@ -1,0 +1,309 @@
+﻿  AsioIOServicePool.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+  ConfigMgr.cpp
+  CServer.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+E:\QtChat\GateServer\CServer.cpp(26,26): warning C4101: “exp”: 未引用的局部变量
+  GateServer.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+E:\QtChat\GateServer\RedisMgr.h(25,21): error C2065: “RedisConPool”: 未声明的标识符
+E:\QtChat\GateServer\RedisMgr.h(25,10): error C2923: "std::unique_ptr": "RedisConPool" 不是参数 "_Ty" 的有效 模板 类型参数
+E:\QtChat\GateServer\RedisMgr.h(25): message : 参见“RedisConPool”的声明
+E:\QtChat\GateServer\RedisMgr.h(25,10): error C2976: “std::unique_ptr”: 模板 参数太少
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\GateServer.cpp(89,13): warning C4244: “初始化”: 从“PORT_LONGLONG”转换到“int”，可能丢失数据
+  HttpConnection.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+  LogicSystem.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+E:\QtChat\GateServer\VerifyGrpcClient.h(23,18): error C2065: “RPConPool”: 未声明的标识符
+E:\QtChat\GateServer\VerifyGrpcClient.h(23,7): error C2923: "std::unique_ptr": "RPConPool" 不是参数 "_Ty" 的有效 模板 类型参数
+E:\QtChat\GateServer\VerifyGrpcClient.h(23): message : 参见“RPConPool”的声明
+E:\QtChat\GateServer\VerifyGrpcClient.h(23,7): error C2976: “std::unique_ptr”: 模板 参数太少
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\LogicSystem.cpp(41,54): error C2039: "GetvarifyCode": 不是 "VerifyGrpcClient" 的成员
+E:\QtChat\GateServer\VerifyGrpcClient.h(13): message : 参见“VerifyGrpcClient”的声明
+  RedisMgr.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+E:\QtChat\GateServer\RedisMgr.h(25,21): error C2065: “RedisConPool”: 未声明的标识符
+E:\QtChat\GateServer\RedisMgr.h(25,10): error C2923: "std::unique_ptr": "RedisConPool" 不是参数 "_Ty" 的有效 模板 类型参数
+E:\QtChat\GateServer\RedisMgr.h(25): message : 参见“RedisConPool”的声明
+E:\QtChat\GateServer\RedisMgr.h(25,10): error C2976: “std::unique_ptr”: 模板 参数太少
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(4,21): error C2512: “std::unique_ptr”: 没有合适的默认构造函数可用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174,1): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(9,84): error C2662: “void std::unique_ptr<_Ty,_Dx>::reset(_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type) noexcept”: 不能将“this”指针从“std::unique_ptr”转换为“std::unique_ptr<_Ty,_Dx> &”
+E:\QtChat\GateServer\RedisMgr.cpp(9,84): message : 原因如下: 无法从“std::unique_ptr”转换为“std::unique_ptr<_Ty,_Dx>”
+E:\QtChat\GateServer\RedisMgr.cpp(9,2): message : 转换要求第二个用户定义的转换运算符或构造函数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3284,23): message : 参见“std::unique_ptr<_Ty,_Dx>::reset”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(20,26): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\RedisMgr.cpp(20,26): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\RedisMgr.cpp(20,28): error C2039: "getConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(21,5): error C3536: “connect”: 初始化之前无法使用
+E:\QtChat\GateServer\RedisMgr.cpp(21,24): error C2446: “==”: 没有从“nullptr”到“int”的转换
+E:\QtChat\GateServer\RedisMgr.cpp(21,17): message : 本机 nullptr 只能转换为 bool 或使用 reinterpret_cast 转换为整型
+E:\QtChat\GateServer\RedisMgr.cpp(24,71): error C2664: “void *redisCommand(redisContext *,const char *,...)”: 无法将参数 1 从“int”转换为“redisContext *”
+E:\QtChat\GateServer\RedisMgr.cpp(24,41): message : 从整型类型转换为指针类型需要 reinterpret_cast、C 样式转换或带圆括号的函数样式强制转换
+D:\cppsoft\redis\reids\deps\hiredis\hiredis.h(217,7): message : 参见“redisCommand”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(25,5): error C3536: “reply”: 初始化之前无法使用
+E:\QtChat\GateServer\RedisMgr.cpp(28,12): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\RedisMgr.cpp(28,12): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\RedisMgr.cpp(28,14): error C2039: "returnConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(34,24): error C2664: “void freeReplyObject(void *)”: 无法将参数 1 从“int”转换为“void *”
+E:\QtChat\GateServer\RedisMgr.cpp(34,19): message : 从整型类型转换为指针类型需要 reinterpret_cast、C 样式转换或带圆括号的函数样式强制转换
+D:\cppsoft\redis\reids\deps\hiredis\hiredis.h(162,6): message : 参见“freeReplyObject”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(35,12): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\RedisMgr.cpp(35,12): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\RedisMgr.cpp(35,14): error C2039: "returnConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(40,23): error C2664: “void freeReplyObject(void *)”: 无法将参数 1 从“int”转换为“void *”
+E:\QtChat\GateServer\RedisMgr.cpp(40,18): message : 从整型类型转换为指针类型需要 reinterpret_cast、C 样式转换或带圆括号的函数样式强制转换
+D:\cppsoft\redis\reids\deps\hiredis\hiredis.h(162,6): message : 参见“freeReplyObject”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(43,11): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\RedisMgr.cpp(43,11): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\RedisMgr.cpp(43,13): error C2039: "returnConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(49,26): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\RedisMgr.cpp(49,26): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\RedisMgr.cpp(49,28): error C2039: "getConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(50,5): error C3536: “connect”: 初始化之前无法使用
+E:\QtChat\GateServer\RedisMgr.cpp(50,24): error C2446: “==”: 没有从“nullptr”到“int”的转换
+E:\QtChat\GateServer\RedisMgr.cpp(50,17): message : 本机 nullptr 只能转换为 bool 或使用 reinterpret_cast 转换为整型
+E:\QtChat\GateServer\RedisMgr.cpp(53,89): error C2664: “void *redisCommand(redisContext *,const char *,...)”: 无法将参数 1 从“int”转换为“redisContext *”
+E:\QtChat\GateServer\RedisMgr.cpp(53,41): message : 从整型类型转换为指针类型需要 reinterpret_cast、C 样式转换或带圆括号的函数样式强制转换
+D:\cppsoft\redis\reids\deps\hiredis\hiredis.h(217,7): message : 参见“redisCommand”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(56,19): error C3536: “reply”: 初始化之前无法使用
+E:\QtChat\GateServer\RedisMgr.cpp(60,12): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\RedisMgr.cpp(60,12): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\RedisMgr.cpp(60,14): error C2039: "returnConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(68,24): error C2664: “void freeReplyObject(void *)”: 无法将参数 1 从“int”转换为“void *”
+E:\QtChat\GateServer\RedisMgr.cpp(68,19): message : 从整型类型转换为指针类型需要 reinterpret_cast、C 样式转换或带圆括号的函数样式强制转换
+D:\cppsoft\redis\reids\deps\hiredis\hiredis.h(162,6): message : 参见“freeReplyObject”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(69,12): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\RedisMgr.cpp(69,12): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\RedisMgr.cpp(69,14): error C2039: "returnConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(74,23): error C2664: “void freeReplyObject(void *)”: 无法将参数 1 从“int”转换为“void *”
+E:\QtChat\GateServer\RedisMgr.cpp(74,18): message : 从整型类型转换为指针类型需要 reinterpret_cast、C 样式转换或带圆括号的函数样式强制转换
+D:\cppsoft\redis\reids\deps\hiredis\hiredis.h(162,6): message : 参见“freeReplyObject”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(76,11): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\RedisMgr.cpp(76,11): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\RedisMgr.cpp(76,13): error C2039: "returnConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(82,26): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\RedisMgr.cpp(82,26): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\RedisMgr.cpp(82,28): error C2039: "getConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(83,5): error C3536: “connect”: 初始化之前无法使用
+E:\QtChat\GateServer\RedisMgr.cpp(83,24): error C2446: “==”: 没有从“nullptr”到“int”的转换
+E:\QtChat\GateServer\RedisMgr.cpp(83,17): message : 本机 nullptr 只能转换为 bool 或使用 reinterpret_cast 转换为整型
+E:\QtChat\GateServer\RedisMgr.cpp(86,91): error C2664: “void *redisCommand(redisContext *,const char *,...)”: 无法将参数 1 从“int”转换为“redisContext *”
+E:\QtChat\GateServer\RedisMgr.cpp(86,41): message : 从整型类型转换为指针类型需要 reinterpret_cast、C 样式转换或带圆括号的函数样式强制转换
+D:\cppsoft\redis\reids\deps\hiredis\hiredis.h(217,7): message : 参见“redisCommand”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(87,19): error C3536: “reply”: 初始化之前无法使用
+E:\QtChat\GateServer\RedisMgr.cpp(90,24): error C2664: “void freeReplyObject(void *)”: 无法将参数 1 从“int”转换为“void *”
+E:\QtChat\GateServer\RedisMgr.cpp(90,19): message : 从整型类型转换为指针类型需要 reinterpret_cast、C 样式转换或带圆括号的函数样式强制转换
+D:\cppsoft\redis\reids\deps\hiredis\hiredis.h(162,6): message : 参见“freeReplyObject”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(91,12): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\RedisMgr.cpp(91,12): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\RedisMgr.cpp(91,14): error C2039: "returnConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(97,24): error C2664: “void freeReplyObject(void *)”: 无法将参数 1 从“int”转换为“void *”
+E:\QtChat\GateServer\RedisMgr.cpp(97,19): message : 从整型类型转换为指针类型需要 reinterpret_cast、C 样式转换或带圆括号的函数样式强制转换
+D:\cppsoft\redis\reids\deps\hiredis\hiredis.h(162,6): message : 参见“freeReplyObject”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(98,12): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\RedisMgr.cpp(98,12): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\RedisMgr.cpp(98,14): error C2039: "returnConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(103,23): error C2664: “void freeReplyObject(void *)”: 无法将参数 1 从“int”转换为“void *”
+E:\QtChat\GateServer\RedisMgr.cpp(103,18): message : 从整型类型转换为指针类型需要 reinterpret_cast、C 样式转换或带圆括号的函数样式强制转换
+D:\cppsoft\redis\reids\deps\hiredis\hiredis.h(162,6): message : 参见“freeReplyObject”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(104,11): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\RedisMgr.cpp(104,11): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\RedisMgr.cpp(104,13): error C2039: "returnConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(109,26): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\RedisMgr.cpp(109,26): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\RedisMgr.cpp(109,28): error C2039: "getConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(110,5): error C3536: “connect”: 初始化之前无法使用
+E:\QtChat\GateServer\RedisMgr.cpp(110,24): error C2446: “==”: 没有从“nullptr”到“int”的转换
+E:\QtChat\GateServer\RedisMgr.cpp(110,17): message : 本机 nullptr 只能转换为 bool 或使用 reinterpret_cast 转换为整型
+E:\QtChat\GateServer\RedisMgr.cpp(113,73): error C2664: “void *redisCommand(redisContext *,const char *,...)”: 无法将参数 1 从“int”转换为“redisContext *”
+E:\QtChat\GateServer\RedisMgr.cpp(113,41): message : 从整型类型转换为指针类型需要 reinterpret_cast、C 样式转换或带圆括号的函数样式强制转换
+D:\cppsoft\redis\reids\deps\hiredis\hiredis.h(217,7): message : 参见“redisCommand”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(114,5): error C3536: “reply”: 初始化之前无法使用
+E:\QtChat\GateServer\RedisMgr.cpp(114,22): error C2446: “==”: 没有从“nullptr”到“int”的转换
+E:\QtChat\GateServer\RedisMgr.cpp(114,15): message : 本机 nullptr 只能转换为 bool 或使用 reinterpret_cast 转换为整型
+E:\QtChat\GateServer\RedisMgr.cpp(116,12): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\RedisMgr.cpp(116,12): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\RedisMgr.cpp(116,14): error C2039: "returnConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(122,24): error C2664: “void freeReplyObject(void *)”: 无法将参数 1 从“int”转换为“void *”
+E:\QtChat\GateServer\RedisMgr.cpp(122,19): message : 从整型类型转换为指针类型需要 reinterpret_cast、C 样式转换或带圆括号的函数样式强制转换
+D:\cppsoft\redis\reids\deps\hiredis\hiredis.h(162,6): message : 参见“freeReplyObject”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(123,12): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\RedisMgr.cpp(123,12): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\RedisMgr.cpp(123,14): error C2039: "returnConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(129,23): error C2664: “void freeReplyObject(void *)”: 无法将参数 1 从“int”转换为“void *”
+E:\QtChat\GateServer\RedisMgr.cpp(129,18): message : 从整型类型转换为指针类型需要 reinterpret_cast、C 样式转换或带圆括号的函数样式强制转换
+D:\cppsoft\redis\reids\deps\hiredis\hiredis.h(162,6): message : 参见“freeReplyObject”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(130,11): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\RedisMgr.cpp(130,11): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\RedisMgr.cpp(130,13): error C2039: "returnConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(135,26): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\RedisMgr.cpp(135,26): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\RedisMgr.cpp(135,28): error C2039: "getConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(136,5): error C3536: “connect”: 初始化之前无法使用
+E:\QtChat\GateServer\RedisMgr.cpp(136,24): error C2446: “==”: 没有从“nullptr”到“int”的转换
+E:\QtChat\GateServer\RedisMgr.cpp(136,17): message : 本机 nullptr 只能转换为 bool 或使用 reinterpret_cast 转换为整型
+E:\QtChat\GateServer\RedisMgr.cpp(139,91): error C2664: “void *redisCommand(redisContext *,const char *,...)”: 无法将参数 1 从“int”转换为“redisContext *”
+E:\QtChat\GateServer\RedisMgr.cpp(139,41): message : 从整型类型转换为指针类型需要 reinterpret_cast、C 样式转换或带圆括号的函数样式强制转换
+D:\cppsoft\redis\reids\deps\hiredis\hiredis.h(217,7): message : 参见“redisCommand”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(140,19): error C3536: “reply”: 初始化之前无法使用
+E:\QtChat\GateServer\RedisMgr.cpp(143,24): error C2664: “void freeReplyObject(void *)”: 无法将参数 1 从“int”转换为“void *”
+E:\QtChat\GateServer\RedisMgr.cpp(143,19): message : 从整型类型转换为指针类型需要 reinterpret_cast、C 样式转换或带圆括号的函数样式强制转换
+D:\cppsoft\redis\reids\deps\hiredis\hiredis.h(162,6): message : 参见“freeReplyObject”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(144,12): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\RedisMgr.cpp(144,12): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\RedisMgr.cpp(144,14): error C2039: "returnConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(150,24): error C2664: “void freeReplyObject(void *)”: 无法将参数 1 从“int”转换为“void *”
+E:\QtChat\GateServer\RedisMgr.cpp(150,19): message : 从整型类型转换为指针类型需要 reinterpret_cast、C 样式转换或带圆括号的函数样式强制转换
+D:\cppsoft\redis\reids\deps\hiredis\hiredis.h(162,6): message : 参见“freeReplyObject”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(151,12): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\RedisMgr.cpp(151,12): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\RedisMgr.cpp(151,14): error C2039: "returnConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(156,23): error C2664: “void freeReplyObject(void *)”: 无法将参数 1 从“int”转换为“void *”
+E:\QtChat\GateServer\RedisMgr.cpp(156,18): message : 从整型类型转换为指针类型需要 reinterpret_cast、C 样式转换或带圆括号的函数样式强制转换
+D:\cppsoft\redis\reids\deps\hiredis\hiredis.h(162,6): message : 参见“freeReplyObject”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(157,11): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\RedisMgr.cpp(157,11): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\RedisMgr.cpp(157,13): error C2039: "returnConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(161,26): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\RedisMgr.cpp(161,26): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\RedisMgr.cpp(161,28): error C2039: "getConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(162,5): error C3536: “connect”: 初始化之前无法使用
+E:\QtChat\GateServer\RedisMgr.cpp(162,24): error C2446: “==”: 没有从“nullptr”到“int”的转换
+E:\QtChat\GateServer\RedisMgr.cpp(162,17): message : 本机 nullptr 只能转换为 bool 或使用 reinterpret_cast 转换为整型
+E:\QtChat\GateServer\RedisMgr.cpp(165,73): error C2664: “void *redisCommand(redisContext *,const char *,...)”: 无法将参数 1 从“int”转换为“redisContext *”
+E:\QtChat\GateServer\RedisMgr.cpp(165,41): message : 从整型类型转换为指针类型需要 reinterpret_cast、C 样式转换或带圆括号的函数样式强制转换
+D:\cppsoft\redis\reids\deps\hiredis\hiredis.h(217,7): message : 参见“redisCommand”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(166,5): error C3536: “reply”: 初始化之前无法使用
+E:\QtChat\GateServer\RedisMgr.cpp(166,22): error C2446: “==”: 没有从“nullptr”到“int”的转换
+E:\QtChat\GateServer\RedisMgr.cpp(166,15): message : 本机 nullptr 只能转换为 bool 或使用 reinterpret_cast 转换为整型
+E:\QtChat\GateServer\RedisMgr.cpp(168,12): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\RedisMgr.cpp(168,12): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\RedisMgr.cpp(168,14): error C2039: "returnConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(174,24): error C2664: “void freeReplyObject(void *)”: 无法将参数 1 从“int”转换为“void *”
+E:\QtChat\GateServer\RedisMgr.cpp(174,19): message : 从整型类型转换为指针类型需要 reinterpret_cast、C 样式转换或带圆括号的函数样式强制转换
+D:\cppsoft\redis\reids\deps\hiredis\hiredis.h(162,6): message : 参见“freeReplyObject”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(175,12): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\RedisMgr.cpp(175,12): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\RedisMgr.cpp(175,14): error C2039: "returnConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(180,23): error C2664: “void freeReplyObject(void *)”: 无法将参数 1 从“int”转换为“void *”
+E:\QtChat\GateServer\RedisMgr.cpp(180,18): message : 从整型类型转换为指针类型需要 reinterpret_cast、C 样式转换或带圆括号的函数样式强制转换
+D:\cppsoft\redis\reids\deps\hiredis\hiredis.h(162,6): message : 参见“freeReplyObject”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(181,11): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\RedisMgr.cpp(181,11): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\RedisMgr.cpp(181,13): error C2039: "returnConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(186,26): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\RedisMgr.cpp(186,26): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\RedisMgr.cpp(186,28): error C2039: "getConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(187,5): error C3536: “connect”: 初始化之前无法使用
+E:\QtChat\GateServer\RedisMgr.cpp(187,24): error C2446: “==”: 没有从“nullptr”到“int”的转换
+E:\QtChat\GateServer\RedisMgr.cpp(187,17): message : 本机 nullptr 只能转换为 bool 或使用 reinterpret_cast 转换为整型
+E:\QtChat\GateServer\RedisMgr.cpp(190,107): error C2664: “void *redisCommand(redisContext *,const char *,...)”: 无法将参数 1 从“int”转换为“redisContext *”
+E:\QtChat\GateServer\RedisMgr.cpp(190,41): message : 从整型类型转换为指针类型需要 reinterpret_cast、C 样式转换或带圆括号的函数样式强制转换
+D:\cppsoft\redis\reids\deps\hiredis\hiredis.h(217,7): message : 参见“redisCommand”的声明
+E:\QtChat\GateServer\RedisMgr.cpp(191,5): error C3536: “reply”: 初始化之前无法使用
+E:\QtChat\GateServer\RedisMgr.cpp(191,22): error C2446: “==”: 没有从“nullptr”到“int”的转换
+E:\QtChat\GateServer\RedisMgr.cpp(191,15): message : 本机 nullptr 只能转换为 bool 或使用 reinterpret_cast 转换为整型
+E:\QtChat\GateServer\RedisMgr.cpp(193,12): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+E:\QtChat\GateServer\RedisMgr.cpp(193,12): fatal  error C1003: 错误计数超过 100；正在停止编译
+  VerifyGrpcClient.cpp
+E:\QtChat\GateServer\VerifyGrpcClient.h(23,18): error C2065: “RPConPool”: 未声明的标识符
+E:\QtChat\GateServer\VerifyGrpcClient.h(23,7): error C2923: "std::unique_ptr": "RPConPool" 不是参数 "_Ty" 的有效 模板 类型参数
+E:\QtChat\GateServer\VerifyGrpcClient.h(23): message : 参见“RPConPool”的声明
+E:\QtChat\GateServer\VerifyGrpcClient.h(23,7): error C2976: “std::unique_ptr”: 模板 参数太少
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\VerifyGrpcClient.cpp(10,22): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\VerifyGrpcClient.cpp(10,22): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\VerifyGrpcClient.cpp(10,24): error C2039: "getConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\VerifyGrpcClient.cpp(12,25): error C3536: “stub”: 初始化之前无法使用
+E:\QtChat\GateServer\VerifyGrpcClient.cpp(15,14): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\VerifyGrpcClient.cpp(15,14): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\VerifyGrpcClient.cpp(15,16): error C2039: "returnConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\VerifyGrpcClient.cpp(19,14): error C2678: 二进制“->”: 没有找到接受“std::unique_ptr”类型的左操作数的运算符(或没有可接受的转换)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3268,37): message : 可能是“_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type std::unique_ptr<_Ty,_Dx>::operator ->(void) noexcept const”
+E:\QtChat\GateServer\VerifyGrpcClient.cpp(19,14): message : 尝试匹配参数列表“(std::unique_ptr)”时
+E:\QtChat\GateServer\VerifyGrpcClient.cpp(19,16): error C2039: "returnConnection": 不是 "std::unique_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\VerifyGrpcClient.cpp(24,37): error C2512: “std::unique_ptr”: 没有合适的默认构造函数可用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3174,1): message : 参见“std::unique_ptr”的声明
+E:\QtChat\GateServer\VerifyGrpcClient.cpp(28,46): error C2662: “void std::unique_ptr<_Ty,_Dx>::reset(_Get_deleter_pointer_type<_Ty,remove_reference<_Ty1>::type,void>::type) noexcept”: 不能将“this”指针从“std::unique_ptr”转换为“std::unique_ptr<_Ty,_Dx> &”
+E:\QtChat\GateServer\VerifyGrpcClient.cpp(28,46): message : 原因如下: 无法从“std::unique_ptr”转换为“std::unique_ptr<_Ty,_Dx>”
+E:\QtChat\GateServer\VerifyGrpcClient.cpp(28,6): message : 转换要求第二个用户定义的转换运算符或构造函数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3284,23): message : 参见“std::unique_ptr<_Ty,_Dx>::reset”的声明
+  正在生成代码...

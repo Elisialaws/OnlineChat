@@ -1,0 +1,98 @@
+﻿  AsyncServer.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+E:\QtChat\endPoint\AsyncServer.h(46,22): error C2760: 语法错误:此处出现意外的“const”；应为“)”
+E:\QtChat\endPoint\AsyncServer.h(46,10): error C2182: “<alignment member>”: “void” 这一使用无效
+E:\QtChat\endPoint\AsyncServer.h(46,43): error C2059: 语法错误:“boost::system::error_code”
+  endPoint.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+E:\QtChat\endPoint\endPoint.h(20,29): error C2653: “asio”: 不是类或命名空间名称
+E:\QtChat\endPoint\endPoint.h(20,18): error C2923: "std::shared_ptr": "socket" 不是参数 "_Ty" 的有效 模板 类型参数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock2.h(2172): message : 参见“socket”的声明
+E:\QtChat\endPoint\endPoint.h(21,24): error C2653: “asio”: 不是类或命名空间名称
+E:\QtChat\endPoint\endPoint.h(21,47): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\QtChat\endPoint\endPoint.h(21,47): error C2143: 语法错误: 缺少“,”(在“&”的前面)
+E:\QtChat\endPoint\endPoint.h(33,21): error C2653: “asio”: 不是类或命名空间名称
+E:\QtChat\endPoint\endPoint.h(33,10): error C2923: "std::shared_ptr": "socket" 不是参数 "_Ty" 的有效 模板 类型参数
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock2.h(2172): message : 参见“socket”的声明
+E:\QtChat\endPoint\endPoint.cpp(182,75): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\QtChat\endPoint\endPoint.cpp(200,85): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\QtChat\endPoint\endPoint.cpp(246,83): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\QtChat\endPoint\endPoint.cpp(287,10): error C2511: “Session::Session(std::shared_ptr<boost::asio::ip::tcp::socket>)”:“Session”中没有找到重载的成员函数
+E:\QtChat\endPoint\endPoint.cpp(6): message : 参见“Session”的声明
+E:\QtChat\endPoint\endPoint.cpp(288,43): error C2550: “Session::{ctor}”: 构造函数初始值设定项列表只能在构造函数定义中使用
+E:\QtChat\endPoint\endPoint.cpp(291,15): error C2511: “void Session::Connect(const boost::asio::ip::tcp::endpoint &)”:“Session”中没有找到重载的成员函数
+E:\QtChat\endPoint\endPoint.cpp(6): message : 参见“Session”的声明
+E:\QtChat\endPoint\endPoint.cpp(300,33): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+E:\QtChat\endPoint\endPoint.cpp(301,22): error C2675: 一元“->”:“std::shared_ptr”不定义该运算符或到预定义运算符可接收类型的转换
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1700,22): message : 可能是“_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const”
+E:\QtChat\endPoint\endPoint.cpp(301): error C2783: "_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const": 无法推导 "__formal" 的 模板 参数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1700): message : 参见“std::shared_ptr<_Ty>::operator ->”的声明
+E:\QtChat\endPoint\endPoint.cpp(301,24): error C2039: "async_write_some": 不是 "std::shared_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1493): message : 参见“std::shared_ptr”的声明
+E:\QtChat\endPoint\endPoint.cpp(313,18): error C2675: 一元“->”:“std::shared_ptr”不定义该运算符或到预定义运算符可接收类型的转换
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1700,22): message : 可能是“_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const”
+E:\QtChat\endPoint\endPoint.cpp(313): error C2783: "_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const": 无法推导 "__formal" 的 模板 参数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1700): message : 参见“std::shared_ptr<_Ty>::operator ->”的声明
+E:\QtChat\endPoint\endPoint.cpp(313,20): error C2039: "async_write_some": 不是 "std::shared_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1493): message : 参见“std::shared_ptr”的声明
+E:\QtChat\endPoint\endPoint.cpp(323,28): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+E:\QtChat\endPoint\endPoint.cpp(325,22): error C2675: 一元“->”:“std::shared_ptr”不定义该运算符或到预定义运算符可接收类型的转换
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1700,22): message : 可能是“_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const”
+E:\QtChat\endPoint\endPoint.cpp(325): error C2783: "_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const": 无法推导 "__formal" 的 模板 参数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1700): message : 参见“std::shared_ptr<_Ty>::operator ->”的声明
+E:\QtChat\endPoint\endPoint.cpp(325,24): error C2039: "async_write_some": 不是 "std::shared_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1493): message : 参见“std::shared_ptr”的声明
+E:\QtChat\endPoint\endPoint.cpp(336,22): error C2675: 一元“->”:“std::shared_ptr”不定义该运算符或到预定义运算符可接收类型的转换
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1700,22): message : 可能是“_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const”
+E:\QtChat\endPoint\endPoint.cpp(336): error C2783: "_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const": 无法推导 "__formal" 的 模板 参数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1700): message : 参见“std::shared_ptr<_Ty>::operator ->”的声明
+E:\QtChat\endPoint\endPoint.cpp(336,24): error C2039: "async_write_some": 不是 "std::shared_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1493): message : 参见“std::shared_ptr”的声明
+E:\QtChat\endPoint\endPoint.cpp(344,63): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\QtChat\endPoint\endPoint.cpp(348,18): error C2675: 一元“->”:“std::shared_ptr”不定义该运算符或到预定义运算符可接收类型的转换
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1700,22): message : 可能是“_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const”
+E:\QtChat\endPoint\endPoint.cpp(348): error C2783: "_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const": 无法推导 "__formal" 的 模板 参数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1700): message : 参见“std::shared_ptr<_Ty>::operator ->”的声明
+E:\QtChat\endPoint\endPoint.cpp(348,20): error C2039: "async_write_some": 不是 "std::shared_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1493): message : 参见“std::shared_ptr”的声明
+E:\QtChat\endPoint\endPoint.cpp(369,22): error C2675: 一元“->”:“std::shared_ptr”不定义该运算符或到预定义运算符可接收类型的转换
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1700,22): message : 可能是“_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const”
+E:\QtChat\endPoint\endPoint.cpp(369): error C2783: "_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const": 无法推导 "__formal" 的 模板 参数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1700): message : 参见“std::shared_ptr<_Ty>::operator ->”的声明
+E:\QtChat\endPoint\endPoint.cpp(369,24): error C2039: "async_send": 不是 "std::shared_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1493): message : 参见“std::shared_ptr”的声明
+E:\QtChat\endPoint\endPoint.cpp(377,63): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\QtChat\endPoint\endPoint.cpp(383,18): error C2675: 一元“->”:“std::shared_ptr”不定义该运算符或到预定义运算符可接收类型的转换
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1700,22): message : 可能是“_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const”
+E:\QtChat\endPoint\endPoint.cpp(383): error C2783: "_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const": 无法推导 "__formal" 的 模板 参数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1700): message : 参见“std::shared_ptr<_Ty>::operator ->”的声明
+E:\QtChat\endPoint\endPoint.cpp(383,20): error C2039: "async_send": 不是 "std::shared_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1493): message : 参见“std::shared_ptr”的声明
+E:\QtChat\endPoint\endPoint.cpp(394,12): error C2675: 一元“->”:“std::shared_ptr”不定义该运算符或到预定义运算符可接收类型的转换
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1700,22): message : 可能是“_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const”
+E:\QtChat\endPoint\endPoint.cpp(394): error C2783: "_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const": 无法推导 "__formal" 的 模板 参数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1700): message : 参见“std::shared_ptr<_Ty>::operator ->”的声明
+E:\QtChat\endPoint\endPoint.cpp(394,14): error C2039: "async_read_some": 不是 "std::shared_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1493): message : 参见“std::shared_ptr”的声明
+E:\QtChat\endPoint\endPoint.cpp(400,29): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+E:\QtChat\endPoint\endPoint.cpp(403,16): error C2675: 一元“->”:“std::shared_ptr”不定义该运算符或到预定义运算符可接收类型的转换
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1700,22): message : 可能是“_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const”
+E:\QtChat\endPoint\endPoint.cpp(403): error C2783: "_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const": 无法推导 "__formal" 的 模板 参数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1700): message : 参见“std::shared_ptr<_Ty>::operator ->”的声明
+E:\QtChat\endPoint\endPoint.cpp(403,18): error C2039: "async_read_some": 不是 "std::shared_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1493): message : 参见“std::shared_ptr”的声明
+E:\QtChat\endPoint\endPoint.cpp(422,12): error C2675: 一元“->”:“std::shared_ptr”不定义该运算符或到预定义运算符可接收类型的转换
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1700,22): message : 可能是“_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const”
+E:\QtChat\endPoint\endPoint.cpp(422): error C2783: "_Ty2 *std::shared_ptr<_Ty>::operator ->(void) noexcept const": 无法推导 "__formal" 的 模板 参数
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1700): message : 参见“std::shared_ptr<_Ty>::operator ->”的声明
+E:\QtChat\endPoint\endPoint.cpp(422,14): error C2039: "async_receive": 不是 "std::shared_ptr" 的成员
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(1493): message : 参见“std::shared_ptr”的声明
+E:\QtChat\endPoint\endPoint.cpp(427,29): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+  endPoints.cpp
+  正在生成代码...
